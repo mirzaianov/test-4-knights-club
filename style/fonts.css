@@ -22,7 +22,7 @@
   font-display: swap;
   font-family: 'Golos Text SemiBold';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   src: local('Golos Text SemiBold'), local('Golos-Text-SemiBold'), local('Golos Text');
   src: url('../assets/fonts/GolosText-SemiBold.ttf')
     format('ttf');
@@ -32,7 +32,7 @@
   font-display: swap;
   font-family: 'Golos Text Bold';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   src: local('Golos Text Bold'), local('Golos-Text-Bold'), local('Golos Text');
   src: url('../assets/fonts/GolosText-Bold.ttf')
     format('ttf');
@@ -42,7 +42,7 @@
   font-display: swap;
   font-family: 'Merriweather';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   src: local('Merriweather Regular'), local('Merriweather-Regular'), local('Merriweather');
   src: url('../assets/fonts/Merriweather-Regular.ttf')
     format('ttf');
@@ -52,7 +52,7 @@
   font-display: swap;
   font-family: 'Merriweather Bold';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   src: local('Merriweather Regular Bold'), local('Merriweather-Regular-Bold'), local('Merriweather');
   src: url('../assets/fonts/Merriweather-Bold.ttf')
     format('ttf');
