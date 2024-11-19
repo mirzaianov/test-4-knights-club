@@ -5,7 +5,7 @@
   font-weight: 400;
   src: local('Golos Text Regular'), local('Golos-Text-Regular'),
     local('Golos Text');
-  src: url('../assets/fonts/GolosText-Regular.ttf') format('ttf');
+  src: url('../assets/fonts/GolosText-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -15,7 +15,7 @@
   font-weight: 500;
   src: local('Golos Text Medium'), local('Golos-Text-Medium'),
     local('Golos Text');
-  src: url('../assets/fonts/GolosText-Medium.ttf') format('ttf');
+  src: url('../assets/fonts/GolosText-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   font-weight: 600;
   src: local('Golos Text SemiBold'), local('Golos-Text-SemiBold'),
     local('Golos Text');
-  src: url('../assets/fonts/GolosText-SemiBold.ttf') format('ttf');
+  src: url('../assets/fonts/GolosText-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Golos Text Bold'), local('Golos-Text-Bold'), local('Golos Text');
-  src: url('../assets/fonts/GolosText-Bold.ttf') format('ttf');
+  src: url('../assets/fonts/GolosText-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -44,7 +44,7 @@
   font-weight: 400;
   src: local('Merriweather Regular'), local('Merriweather-Regular'),
     local('Merriweather');
-  src: url('../assets/fonts/Merriweather-Regular.ttf') format('ttf');
+  src: url('../assets/fonts/Merriweather-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -54,5 +54,5 @@
   font-weight: 700;
   src: local('Merriweather Regular Bold'), local('Merriweather-Regular-Bold'),
     local('Merriweather');
-  src: url('../assets/fonts/Merriweather-Bold.ttf') format('ttf');
+  src: url('../assets/fonts/Merriweather-Bold.ttf') format('truetype');
 }
