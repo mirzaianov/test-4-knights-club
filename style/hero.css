@@ -1,0 +1,51 @@
+.hero {
+  position: relative;
+  background-color: var(--color-neutral-40);
+  overflow: hidden;
+}
+
+.hero__bg {
+  position: absolute;
+  overflow: hidden;
+  inset: 0;
+  mix-blend-mode: color-burn;
+  z-index: 100;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.hero__header {
+  position: relative;
+  z-index: 200;
+  padding: 1.125rem 0;
+}
+
+.hero__logo {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
+
+.hero__logo-knights {
+  display: flex;
+  align-items: center;
+  gap: 0.0395rem;
+}
+
+.hero__logo-knight {
+  height: 1.6875rem;
+}
+
+.hero__logo-text {
+  font-family: 'Golos Text Bold', sans-serif;
+  font-size: 0.875rem;
+  color: var(--color-text-60);
+  text-transform: uppercase;
+  margin-left: 0.34375rem;
+  letter-spacing: 0.02205rem;
+  line-height: 1.143;
+}

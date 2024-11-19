@@ -1,3 +1,14 @@
 @import 'style/vars.css';
 @import 'style/reset.css';
 @import 'style/fonts.css';
+@import 'style/hero.css';
+
+body {
+  font-family: 'Golos Text', sans-serif;
+  color: var(--color-text-80);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
