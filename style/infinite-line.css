@@ -16,7 +16,7 @@
   justify-content: space-around;
   min-width: 100%;
   flex-shrink: 0;
-  animation: scroll 90s linear infinite;
+  animation: infinite-scroll 90s linear infinite;
   gap: 1.875rem;
 }
 
@@ -37,11 +37,11 @@
   transform: translateY(-50%) translateX(-50%);
 }
 
-/* @keyframes scroll {
+@keyframes infinite-scroll {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(calc(-100%));
   }
-} */
+}
