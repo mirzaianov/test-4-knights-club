@@ -3,6 +3,7 @@
 @import 'style/fonts.css';
 @import 'style/hero.css';
 @import 'style/infinite-line.css';
+@import 'style/about.css';
 
 body {
   font-family: 'Golos Text', sans-serif;
