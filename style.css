@@ -21,3 +21,35 @@ h1 {
   margin-bottom: 1.5rem;
   line-height: 1.1;
 }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-neutral-00);
+  text-align: center;
+  padding: 0.97rem 0;
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 9999rem;
+  line-height: 1;
+}
+
+.btn--primary {
+  background-color: var(--color-neutral-90);
+
+  &:hover {
+    background-color: var(--color-primary-35);
+    color: var(--color-text-80);
+  }
+}
+
+.btn--secondary {
+  background-color: var(--color-neutral-00);
+  color: var(--color-text-80);
+
+  &:hover {
+    background-color: var(--color-neutral-90);
+    color: var(--color-text-00);
+  }
+}
