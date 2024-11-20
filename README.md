@@ -23,7 +23,8 @@ A landing page of the "4 Knights Club" international chess tournament in the Vas
 
 ## Installation & Execution
 
-Run `index.html` on Live Server or open it in your favorite browser
+1. Run `index.html` on Live Server or open it in your favorite browser
+2. Or open the [deployed version](https://www.4-knights-club-mirzaianov.vercel.app/)
 
 ## License
 
