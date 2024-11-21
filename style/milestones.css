@@ -48,7 +48,7 @@
 .milestones__slide {
   padding: 3.875rem 1.25rem 2.125rem;
   font-size: 1.125rem;
-  line-height: 120%;
+  line-height: 1.2;
   display: flex;
   background-image: url('../assets/img/milestone-bg.jpg');
   background-size: cover;
@@ -103,7 +103,7 @@
   height: 0.625rem;
   border-radius: 50%;
   background-color: var(--color-neutral-20);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .milestones__pagination-element--active {
@@ -118,7 +118,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
