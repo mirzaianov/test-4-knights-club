@@ -5,6 +5,7 @@
 @import 'style/infinite-line.css';
 @import 'style/about.css';
 @import 'style/milestones.css';
+@import 'style/participants.css';
 
 body {
   font-family: 'Golos Text', sans-serif;
