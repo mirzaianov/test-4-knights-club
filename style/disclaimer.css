@@ -1,0 +1,9 @@
+.disclaimer {
+  padding: 2.5rem 0 4.5rem;
+  background-color: var(--color-neutral-40);
+}
+
+.disclaimer__content {
+  opacity: 60%;
+  line-height: 1.2;
+}

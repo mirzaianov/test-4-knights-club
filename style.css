@@ -6,6 +6,7 @@
 @import 'style/about.css';
 @import 'style/milestones.css';
 @import 'style/participants.css';
+@import 'style/disclaimer.css';
 
 body {
   font-family: 'Golos Text', sans-serif;
