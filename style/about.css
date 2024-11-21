@@ -51,7 +51,7 @@
 }
 
 .about__game {
-  padding-top: 2.125rem;
+  padding-top: 1.5rem;
 }
 
 .about__game .about__header {
@@ -63,7 +63,7 @@
   min-height: 26.875rem;
   height: 100%;
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .about__game-image-wrapper {
@@ -85,7 +85,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 0.75rem;
-  padding: 1rem;
+  padding: 0.9375rem;
   border-bottom: 0.125rem solid var(--color-neutral-20);
 }
 
@@ -128,6 +128,7 @@
 }
 
 .about__subtitle {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.2;
   color: var(--color-text-25);
 }
