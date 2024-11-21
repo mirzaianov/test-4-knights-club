@@ -9,7 +9,7 @@
   overflow: hidden;
   inset: 0;
   mix-blend-mode: color-burn;
-  z-index: 100;
+  z-index: 300;
 
   img {
     height: 100%;
@@ -20,7 +20,7 @@
 
 .hero__header {
   position: relative;
-  z-index: 200;
+  z-index: 400;
   padding: 1.125rem 0;
 }
 
@@ -154,7 +154,7 @@
   bottom: 0;
   width: 7rem;
   right: 8rem;
-  z-index: 100;
+  z-index: 1000;
 
   img {
     width: 100%;
