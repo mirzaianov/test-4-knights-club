@@ -139,6 +139,10 @@
     grid-template-rows: auto auto;
   }
 
+  .participants__content-element > h2 {
+    text-wrap: nowrap;
+  }
+
   .participants__content-element:nth-child(1) {
     grid-column: 1/2;
   }
@@ -157,7 +161,7 @@
     flex: 0 0 31.8%;
   }
 
-  .participants__slider-navigation {
+  .participants__navigation {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -167,6 +171,10 @@
 @media (min-width: 1200px) {
   .participants__slide {
     flex: 0 0 32.5%;
+  }
+
+  .participants__slide-image {
+    max-width: 20rem;
   }
 }
 
