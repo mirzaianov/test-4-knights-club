@@ -169,6 +169,7 @@
 
   .milestones__slides-wrapper {
     overflow: visible;
+    margin-bottom: 0;
   }
 
   .milestones__header-text {
