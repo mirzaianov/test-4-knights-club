@@ -151,3 +151,9 @@
 .milestones__navigation-button--disabled {
   background-color: var(--color-neutral-20);
 }
+
+@media (min-width: 576px) {
+  .milestones__slides-block {
+    min-height: auto;
+  }
+}
