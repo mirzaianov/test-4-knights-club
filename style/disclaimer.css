@@ -7,3 +7,9 @@
   opacity: 60%;
   line-height: 1.2;
 }
+
+@media (min-width: 992px) {
+  .disclaimer {
+    padding-bottom: 4.5rem;
+  }
+}
