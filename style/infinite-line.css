@@ -56,3 +56,9 @@
     animation-duration: 60s;
   }
 }
+
+@media (min-width: 1360px) {
+  .infinite-line__block {
+    animation-duration: 30s;
+  }
+}
