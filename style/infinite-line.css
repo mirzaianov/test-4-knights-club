@@ -45,3 +45,14 @@
     transform: translateX(calc(-100%));
   }
 }
+
+@media (min-width: 992px) {
+  .infinite-line {
+    font-size: 1.375rem;
+    padding: 1.125rem 0;
+  }
+
+  .infinite-line__block {
+    animation-duration: 60s;
+  }
+}

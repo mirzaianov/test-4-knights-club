@@ -132,3 +132,91 @@
   line-height: 1.2;
   color: var(--color-text-25);
 }
+
+@media (min-width: 992px) {
+  .about {
+    margin-bottom: 12.5rem;
+  }
+
+  .about__lecture {
+    padding-top: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0;
+  }
+
+  .about__header:first-child {
+    align-self: end;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .about__header:first-child > .hidden {
+    display: none;
+  }
+
+  .about__header:last-child {
+    align-self: start;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .about__header:last-child > .hidden {
+    display: inline;
+  }
+
+  .about__lecture-image {
+    margin-right: 4rem;
+    grid-column: 3 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .about__table {
+    margin-bottom: 3rem;
+  }
+
+  .about__game {
+    padding-top: 4rem;
+    display: flex;
+    gap: 2.75rem;
+  }
+
+  .about__game-image {
+    margin-bottom: 0;
+  }
+
+  .about__game-image-wrapper {
+    transform: translateX(0);
+    width: 25rem;
+    right: -1.75rem;
+    top: -2rem;
+  }
+
+  .about__table-row {
+    display: table-row;
+  }
+
+  .about__table-cell {
+    display: table-cell;
+    padding: 1rem 1rem 1rem 0;
+    font-size: 1.25rem;
+    line-height: 120%;
+    white-space: nowrap;
+    border-bottom: 0.125rem solid var(--color-neutral-20);
+  }
+
+  .about__table-cell--first {
+    padding-top: 0;
+  }
+
+  .about__table-cell--last {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .about__cell-value {
+    padding-left: 1rem;
+    border-left: 0.125rem solid var(--color-neutral-20);
+    width: 100%;
+  }
+}

@@ -87,3 +87,9 @@ h2 {
     font-size: 2.75rem;
   }
 }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
