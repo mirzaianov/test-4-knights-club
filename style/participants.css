@@ -163,3 +163,9 @@
     justify-content: end;
   }
 }
+
+@media (min-width: 1200px) {
+  .participants__slide {
+    flex: 0 0 32.5%;
+  }
+}
