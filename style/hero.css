@@ -329,3 +329,48 @@
     animation-duration: 30s;
   }
 }
+
+@media (min-width: 1600px) {
+  .hero__content {
+    padding-bottom: 8.25rem;
+  }
+
+  .hero__images-main {
+    max-width: 100.1875rem;
+    margin: 0 auto;
+  }
+
+  .hero__images-circle {
+    right: 5.6rem;
+  }
+
+  .hero__images-king {
+    right: 40%;
+    bottom: 23%;
+  }
+
+  .hero__images-queen {
+    right: 18%;
+    bottom: 40%;
+  }
+
+  .hero__images-towers {
+    right: 0;
+    left: 0;
+  }
+
+  .hero__images-secondary {
+    max-width: 100.1875rem;
+    margin: 0 auto;
+  }
+
+  .hero__images-knight {
+    right: 28.3rem;
+    bottom: -3.1rem;
+    scale: 1.05;
+  }
+
+  .hero__images-pawn {
+    right: 10.25rem;
+  }
+}
