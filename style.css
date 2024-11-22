@@ -61,6 +61,7 @@ h2 {
 .btn--secondary {
   background-color: var(--color-neutral-00);
   color: var(--color-text-80);
+  opacity: 0.9;
 
   &:hover {
     background-color: var(--color-neutral-90);
