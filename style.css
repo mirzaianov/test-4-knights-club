@@ -68,6 +68,10 @@ h2 {
   }
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
