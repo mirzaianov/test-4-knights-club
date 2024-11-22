@@ -52,6 +52,7 @@
 
 .hero__content {
   position: relative;
+  margin: 0 auto;
   max-width: 37.5rem;
   z-index: 1000;
   padding: 1.375rem 0 1.7rem;
@@ -180,5 +181,71 @@
 @keyframes rotate-circle {
   to {
     transform: rotate(-360deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .hero__header {
+    padding: 1.625rem 0;
+  }
+
+  .hero__logo-text {
+    font-size: 1rem;
+    line-height: 1.125rem;
+  }
+
+  .hero__logo-knight {
+    height: 2rem;
+  }
+
+  .hero__title {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .hero__subtitle {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero__content {
+    padding: 1.375rem 0 7rem;
+  }
+
+  .hero__images-circle {
+    bottom: 2rem;
+    right: 1.8rem;
+    max-width: 28rem;
+  }
+
+  .hero__images-king {
+    right: 22rem;
+    bottom: 50%;
+    width: 5rem;
+  }
+
+  .hero__images-queen {
+    right: 7rem;
+    bottom: 80%;
+    width: 5rem;
+  }
+
+  .hero__images-towers {
+    width: 70rem;
+  }
+
+  .hero__images-knight {
+    display: block;
+    width: 8rem;
+    right: 15rem;
+  }
+
+  .hero__images-pawn {
+    display: block;
+    width: 3.8rem;
+    right: 1rem;
+    bottom: 0.9rem;
+    z-index: 1000;
   }
 }
