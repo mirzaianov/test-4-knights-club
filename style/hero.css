@@ -314,3 +314,11 @@
     bottom: 1.25rem;
   }
 }
+
+@media (min-width: 1360px) {
+  .hero__images-circle {
+    bottom: 1.5rem;
+    right: -1.5rem;
+    max-width: 49rem;
+  }
+}

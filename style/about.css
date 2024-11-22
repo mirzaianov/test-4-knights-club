@@ -234,3 +234,11 @@
     width: 29rem;
   }
 }
+
+@media (min-width: 1360px) {
+  .about__game-image-wrapper {
+    width: 33rem;
+    right: -1.75rem;
+    top: -3rem;
+  }
+}

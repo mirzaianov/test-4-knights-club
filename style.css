@@ -113,3 +113,17 @@ h2 {
     color: var(--color-neutral-90);
   }
 }
+
+@media (min-width: 1360px) {
+  .container {
+    max-width: 1254px;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+  }
+
+  h2 {
+    font-size: 3.375rem;
+  }
+}
