@@ -226,6 +226,10 @@
     font-size: 2.25rem;
   }
 
+  .about__subtitle {
+    font-size: 1.25rem;
+  }
+
   .about__game .about__header {
     margin-bottom: 3.75rem;
   }
