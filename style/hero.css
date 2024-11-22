@@ -311,7 +311,9 @@
 
   .hero__images-knight {
     width: 12rem;
-    right: 20rem;
+    right: 21rem;
+    bottom: -3.1rem;
+    scale: 1.05;
   }
 
   .hero__images-pawn {
@@ -367,7 +369,6 @@
   .hero__images-knight {
     right: 28.3rem;
     bottom: -3.1rem;
-    scale: 1.05;
   }
 
   .hero__images-pawn {
