@@ -67,3 +67,9 @@ h2 {
     color: var(--color-text-00);
   }
 }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
