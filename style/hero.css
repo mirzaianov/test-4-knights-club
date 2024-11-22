@@ -267,6 +267,12 @@
     inset: 0;
   }
 
+  .hero__images-secondary {
+    position: absolute;
+    height: auto;
+    inset: 0;
+  }
+
   .hero__content {
     margin: 0;
     max-width: 45%;
