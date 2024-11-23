@@ -53,12 +53,12 @@
   }
 
   .infinite-line__block {
-    animation-duration: 60s;
+    animation-duration: 75s;
   }
 }
 
 @media (min-width: 1360px) {
   .infinite-line__block {
-    animation-duration: 30s;
+    animation-duration: 60s;
   }
 }
