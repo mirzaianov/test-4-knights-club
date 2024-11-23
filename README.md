@@ -15,7 +15,7 @@ A landing page of the "4 Knights Club" international chess tournament in the Vas
 - Buttons with binding on page sections
 - An infinite cycled carousel with the tournament participants (4s)
 - A carousel with the tournament history milestones (non-infinite, no cycle)
-- Eye-gripping animations on the Hero sections, user-amusing scroll animations
+- Eye-gripping entry animations on the Hero section
 
 ### Dependencies
 
@@ -24,7 +24,7 @@ A landing page of the "4 Knights Club" international chess tournament in the Vas
 ## Installation & Execution
 
 1. Run `index.html` on Live Server or open it in your favorite browser
-2. Or open the [deployed version](https://www.4-knights-club-mirzaianov.vercel.app/)
+2. Or open the [deployed version](https://4-knights-club-mirzaianov.vercel.app/)
 
 ## License
 
