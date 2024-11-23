@@ -106,7 +106,7 @@
   right: 1.5rem;
   bottom: 2.5rem;
   width: 100%;
-  animation: rotate-circle 90s linear infinite;
+  animation: rotate-circle 45s linear infinite;
 }
 
 .hero__images-king {
@@ -250,12 +250,6 @@
   }
 }
 
-@media (min-width: 992px) {
-  .hero__images-circle {
-    animation-duration: 60s;
-  }
-}
-
 @media (min-width: 1200px) {
   .hero__header {
     justify-content: left;
@@ -328,7 +322,6 @@
     bottom: 1.5rem;
     right: -1.5rem;
     max-width: 49rem;
-    animation-duration: 30s;
   }
 }
 
