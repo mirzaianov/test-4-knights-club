@@ -1,4 +1,4 @@
-<!-- ![MasterHead](./head.gif) -->
+![MasterHead](./head.gif)
 
 # "4 Knights Club" Test Project
 
